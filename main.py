@@ -6,7 +6,7 @@ import wikipedia
 import os.path as pt
 import sqlite3
 
-API_TOKEN = "7285225401:AAHhqErUXycCLNO9WqjzpnL3vKEDrcY0mH0"
+API_TOKEN = "TOKEN"
 bot = telebot.TeleBot(API_TOKEN)
 
 gc = geonamescache.GeonamesCache()
